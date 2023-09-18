@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Isaac Heo Kim">
+        <meta name="description" content="Page explaining about forms and inputs in an HTML file">
+        <title>Forms and Inputs=</title>
+        <link rel="icon" href="img/formsAndInputsImage.jpg">
+    </head>
+    <body>
+        <header>
+            <h1><strong><u>Forms and Inputs=</u></strong></h1>
+            <p style="font-size: 20px; width: 60%;">
+                Forms and Inputs in an <abbr title="Hypertext Markup Language">HTML</abbr> file is a very different topic compared with the previous things we've talked about. All the previous topics were about the devs sending content or information to the users of the website. But in today's lesson, in <em>Forms</em> and <em>Inputs</em>, the user is the one that sends information to the dev or the creator of the website. In the following paragraphs I will expand more upon this topic. Enjoy today's lesson!
+            </p>
+
+            
+        </header>
+        <main>
+            <h2><strong><u>Elements we'll use=</u></strong></h2>
+            <p style="font-size: 20px; width: 60%;">
+                Here's a list of elements you'll need to create a <em>Form</em> and an <em>Input</em>.
+            </p>
+            <dl style="font-size: 20px; width: 60%;">
+                <dt><code>&lt;form&gt;</code></dt>
+                <dd>
+                    This tag is used for creating a form element.
+                </dd>
+                <dt><code>&lt;label&gt;</code> Tag=</dt>
+                <dd>
+                    This tag show the user that the input is about. So if you are waiting for the user to type in, lets say, their first name, then you'll type firstname (an example) in the <code>&lt;label&gt;</code> tag.
+                </dd>
+                <dt><code>&lt;input&gt;</code></dt>
+                <dd>
+                    In this tag, you'll have to type in the <em>type</em> of input you want the audience to type in. There are lost of types of input types, one of the basic ones is the <strong>Text Type</strong>. The text input is used so that the user will type in a text input for the author of the website.  
+                </dd>
+            </dl>
+
+            <h2><strong><u>Attributes we'll use=</u></strong></h2>
+            <p style="font-size: 20px;">
+                We also need to know some Attributes. These are=
+            </p>
+            
+            <h3><strong><u>1.) Attributes inside <code>&lt;form&gt;</code> tags</u></strong></h3>
+
+            <p style="font-size: 20px;">
+                First, I'll explain you the <em>Attributes</em> for the <code>&lt;form&gt;</code> tag. There are 2 tags I'll talk about, the "action" and "method" tags
+            </p>
+
+            <p style="font-size: 20px; width: 60%;">
+                The "action" attribute is used in an HTML form element to specify the URL (Uniform Resource Locator) to which the data submitted through the form should be sent for processing when the user submits the form.
+            </p>
+
+            <p style="font-size: 20px; width: 60%;">
+                The other attribute is called "<em>Method</em>". This attribute specifies the HTTP request method that should be used when submitting the form data to the server. The two most commonly used HTTP methods with the "method" attribute are "GET" and "POST," but other methods like "PUT" and "DELETE" can also be used.
+            </p>
+
+            <figure>
+                <figcaption>Attributes of Form tag</figcaption>
+                <img src="img/formElementExample.png" alt="attributes of Form tag" title="attributes of Form tag">
+            </figure>
+            
+            <section id="forAndId">
+                <h3><strong><u>2.) Attribute inside <code>&lt;label&gt;</code> tag</u></strong></h3>
+            </section>
+
+            <p style="font-size: 20px; width: 60%;">
+                Next, I'll explain you the <em>Attributes</em> for the <code>&lt;label&gt;</code> tag. The first one is the attribute "for". This attribute is used to indicate that the label stands for a specific input. To explain this better, I'll provide you with an image to further explain this part.
+            </p>
+
+            <figure>
+                <figcaption>Here you can see that the "for" and "id" attributes have the same value.</figcaption>
+                <img src="img/formsExample.png" alt="loading example" title="Example of Forms and Input" loading="lazy">
+            </figure>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <h3><strong><u>3.) Attributes inside <code>&lt;input&gt;</code></u></strong></h3>
+            <dl style="font-size: 20px; width: 40%;">
+                <dt><strong><mark>type</mark></strong></dt>
+                <dd>
+                    This attribute is used to specify the type of input the user is going to type down. Some examples for the possible values for this attribute are, text, reset, submit, checkbox, and date.
+                </dd>
+
+                <dt><strong><mark>id</mark></strong></dt>
+                <dd>
+                    As I mentioned in the "<a href="#forAndId">attributes inside the label tag</a>", this attribute is used to tell the <code>&lt;label&gt;</code> tag to stand for the "id" of the next <code>&lt;input&gt;</code> 
+                </dd>
+
+                <dt><strong><mark>name</mark></strong></dt>
+                <dd>This attribute is simply used to name the input that is entered by the client. </dd>
+
+                <dt><strong><mark>placeholder</mark></strong></dt>
+                <dd>
+                    This attribute is used to show the audience a bit of context and give the client a bit of an idea of what is expected to be typed in. 
+                </dd>
+            </dl>
+
+            <p style="font-size: 20px; width: 60%;">
+                One thing that I want to say is that there are more attributes I can talk about, but I haven't told you guys because those attributes are for other types of <code>&lt;input&gt;</code> tags. One example can be "min" and "max".
+            </p>
+        </main>
+        <footer>
+            <h2><strong><u>Conclusion</u></strong></h2>
+            <p style="font-size: 20px; width: 60%;">
+                With this today's lesson will be over. I have teached you guys about <em>Forms</em> and <em>Inputs</em> and told you their uses, and how they can be used for a pathway of comunication of the user and the developer itself, so that they can interchange types information and content to each other.
+            </p>
+            
+            <p style="font-size: 20px;">
+                Click <a href="#">here</a> to go to TOP
+            </p>
+
+            <p style="font-size: 20px;">
+                Click <a href="index.html">here</a> to go to HOME
+            </p>
+        </footer>
+    </body>
+</html>

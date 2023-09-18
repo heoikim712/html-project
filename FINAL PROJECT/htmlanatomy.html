@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Anatomy</title>
+</head>
+<body>
+    <header>
+        <h1><strong><u>Anatomy of an <abbr title="Hypertext Markup Language">HTML</abbr></u></strong></h1>
+        <p style="font-size: 20px;">
+            In this page, I'll be talking about how an <abbr title="Hypertext Markup Language">HTML</abbr>5 file is structured and explain it's anatomy.
+        </p>
+    </header>
+    
+    <hr>
+
+    <main>
+        <h2><strong><u>Anatomy</u></strong></h2>
+        <p style="font-size: 20px;">    
+            Mainly, there are 2 main parts in an <abbr title="Hypertext Markup Language">HTML</abbr>5. There is the <code>&lt;head&gt;</code> section and a <code>&lt;body&gt;</code> section. The biggest differences of <br> these two parts is that the <code>&lt;head&gt;</code> section isn't visible at all (the only exception is the icon) and on the contrary, the <code>&lt;body&gt;</code> <br> section is the visible part of the web. In the <code>&lt;head&gt;</code> section you can see stuff like metadata, title, and other information that <br> you won't really see, but just because you can't see the contents in the <code>&lt;head&gt;</code> section, it doesn't mean that its irrelevant or <br> unimportant. In the <code>&lt;body&gt;</code> section, users will be able to actually physically see the content that is enbeded inside that section. <br> Contents include things like, text, digits, tables, lists, and other multimedia (images, audio, video, etc). <br> Down below I have provided an image showing the anatomy of an <abbr title="Hypertext Markup Language">HTML</abbr>5
+        </p>
+
+        <img src="img/headAndBodyTags.png" alt="Head and Body Image" title="Anatomy of an HTML" width="1000">
+
+        <h2><strong><u>Elements in <abbr title="Hypertext Markup Language">HTML</abbr>5</u></strong></h2>
+        <p style="font-size: 20px;">
+            Elements in <abbr title="Hypertext Markup Language ">HTML</abbr> are kind of like sentences on an essay, essay being the <abbr title="Hypertext Markup Language">HTML</abbr>5. Elements are mainly separated into three <br> parts, the <strong>opening tag</strong>, the <strong>closing tag</strong> and the <strong>content</strong> that the developer decides to add to the page. Let me explain you the <br> three main parts of an <abbr title="Hypertext Markup Language">HTML</abbr>5 Element.
+        </p>
+        <p style="font-size: 20px;">
+            To start off, let's talk about <strong>Opening Tags</strong> and <strong>Closing Tags</strong>. Opening Tags will define the type of meaning the content inside <br> will have. Also all tags will be wraped with closing bracets (<strong>&lt;</strong> and <strong>&gt;</strong>). Opening tags can also contain <strong>Attributes</strong>, and attributes <br> are kinda like complementary information that will specify more specific information inside the Opening Tag. Values can also <br> appear after html attributes. Attribute values are the values assigned to attributes within HTML elements. These values provide <br> additional information about an element or specify how an element should behave. The type and purpose of the attribute <br> determine what kind of value it can accept. 
+        </p>
+        <p style="font-size: 20px;">
+            Some examples of attributes can be like, <code><strong>&lt;a <u>href</u> <mark>= "https://youtube.complementary"</mark>&gt; Click to go to Youtube &lt;/a&gt;</strong></code>. <br> In this example you can see that the <u>underlined</u> part of the code is the <abbr title="Hypertext Markup Language">HTML</abbr> Attribute and the <mark>highlighted</mark> section is the Value <br> of the attribute.
+        </p>
+      
+        <h2>
+            <strong><u><abbr title="Hypertext Markup Language">HTML</abbr> Tags</u></strong>
+        </h2>
+        <p style="font-size: 20px;">
+            Tags are also a huge part of an <abbr title="Hypertext Markup Language">HTML</abbr>, there are a wide range of tags that have different meanings depending on their names. <br> Some examples of <abbr title="Hypertext Markup Language">HTML</abbr> tags can be:
+        </p>
+        <ol style="font-size: 20px;">
+            <li>
+                <code><strong>&lt;nav&gt;</strong></code>= Navigation Tag
+            </li>
+            <li>
+                <code><strong>&lt;hr&gt;</strong></code>= Horizontal Rule Tag
+            </li>
+            <li>
+                <code><strong>&lt;figure&gt;</strong></code>= Figure Tag
+            </li>
+            <li>
+                <code><strong>&lt;mark&gt;</strong></code>= Highlighting Tag
+            </li>
+            <li>
+                <code><strong>&lt;form&gt;</strong></code>= Form Tag
+            </li>
+            <li>
+                <code><strong>&lt;li&gt;</strong></code>= List Tag
+            </li>
+            <li>
+                <code><strong>&lt;table&gt;</strong></code>= Table Tag
+            </li>
+        </ol>
+        <section>
+            <h2><strong><u>Inline and Block Level Elements</u></strong></h2>
+            <p style="font-size: 20px;">
+                There are generally two types of Elements in an <abbr title="Hypertext Markup Language">HTML</abbr> archive. Inline Elements and Block Elements. This could be a bit confusing <br> so hang on tight. 
+            </p>
+            <h3><strong><u>1.) Inline Elements</u></strong></h3>
+            <p style="font-size: 20px;">
+                Inline elements behave differently in terms of display. They do not introduce line breaks or start on a new line; instead, they flow <br> within the content horizontally, taking up only as much width as required for their content. The primary purpose of inline elements <br>is to style and format specific portions of text within block-level elements. Examples of inline elements include anchor links (<code>&lt;a&gt;</code>), <br> text emphasis ( <code>&lt;em&gt;</code>), strong emphasis (<code>&lt;em&gt;</code>), inline images (<code>&lt;img&gt;</code>), and span elements (<code>&lt;span&gt;</code>). Unlike block-level elements, <br> inline elements cannot contain other block-level elements but can nest other inline elements within them.
+            </p>
+            <h3><strong><u>1.) Block Elements</u></strong></h3>
+            <p style="font-size: 20px;">
+                Unlike Inline Elements, Block-level elements in HTML create a distinct "block" or rectangular box within the layout of a web page. <br> They typically initiate a new line in the content and expand to occupy the full width available, effectively pushing any adjacent <br> content below them. These elements are commonly used to establish the fundamental structure of a web page. Examples of block- <br> level elements include headings (e.g., <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), lists (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>), tables (<code>&lt;table&gt;</code>), and divisions (<code>&lt;div&gt;</code>). <br> Block-level elements offer versatility in organizing content because they can nest both block-level and inline elements within them. <br> This characteristic makes them a foundational component in creating structured and organized web documents.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <h2><strong><u>Conclusion</u></strong></h2>
+        <p style="font-size: 20px;">
+            To sum up all the things I have written in this page, I have explained the anatomy of an <abbr title="Hypertext Markup Language">HTML</abbr> file. I've stated that there are mainly <br> two parts, the <code><strong><u>&lt;head&gt;</u></strong></code> and the <code><strong><u>&lt;body&gt;</u></strong></code> section. There are metadata in the head section and body sections contain contents. In addition, <br> I've also talked about <abbr title="Hypertext Markup Language">HTML</abbr> Elements, Attributes, and Values. Finally, I explained the key differences of <strong><u>Inline Elements</u></strong> and <strong><u>Block <br> Elements</u></strong>. I sincerely hope that you guys have learned something new and found this topic interesting!
+        </p>
+        
+        <a href="#" style="font-size: 20px;"><strong><u>Back to Top 👆</u></strong></a>
+
+        <br>
+
+        <a href="/" style="font-size: 20px;"><strong><u>Back to Home 🏠</u></strong></a>
+    </footer>
+</body>
+</html>

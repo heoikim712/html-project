@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Isaac Heo Kim">
+        <meta name="Description" content="This file is used to explain how to add video and audio files in an HTML5 file">
+        <link rel="icon" href="img/vidAndAudLOGO.jpg">
+        <title>Adding Vid and Aud</title>
+    </head>
+    <body>
+        <header>
+            <h1><strong><u>Adding Videos and Audios in an <abbr title="Hypertext Markup Language">HTML</abbr>5 file=</u></strong></h1>
+            <p style="font-size: 20px; width: 60%;">
+                You can add <em>video</em> and <em>audio</em> files in an <abbr title="Hypertext Markup Language">HTML</abbr>5 files. A great example of video files existing in an <abbr title="Hypertext Markup Language">HTML</abbr> file is <a href="https://youtube.com" target="_blank">YOUTUBE</a>. I mean, imagine if there wasn't a way to add a video file inside a website. Websites like <a href="https://youtube.com" target="_blank">Youtube</a>, <a href="https://netflix.com">Netflix</a>, and <a href="https://www.primevideo.com" target="_blank">Amazon Prime Video</a>
+            </p>
+        </header>
+        <hr>
+        <br>
+        <main>
+            <h2><strong><u>ADDING VIDEOS=</u></strong></h2>
+            <p style="font-size: 20px;">
+                Adding videos are <em>dead easy</em>. To put this into perspective, the only tag you need to know is the <code>&lt;video&gt;</code> tag and some other attributes.
+            </p>
+            <p style="font-size: 20px;">
+                A basic video tag would look something like this=
+            </p>
+
+            <figure>
+                <figcaption>Video tag Example</figcaption>
+                <img src="img/videoTagExample.png" alt="Video Tag Example Image" title="Video Tag Example Image">
+            </figure>
+
+            <p style="font-size: 20px; width: 60%;">
+                I will now explain all the attributes that were inside the image I just displayed to you. The <abbr title="source">src</abbr> attribute is used for selecting the video file. The <em>controls</em> and <em>loop</em> are <strong>boolean attributes</strong>. This means that the attribute doesn't have any values, and the addition of the attribute inplies a "true" or "on" state. They are often used for enabling or disabling certain features or behaviours in <abbr title="Hypertext Markup Language">HTML</abbr> Elements.
+            </p>
+
+            <p style="font-size: 20px; width: 60%;">
+                After the <code>&lt;video&gt;</code> tag, you may have noticed that I nested some <code>&lt;source&gt;</code> tags. Let me tell you the purporse of this. The point of adding this tag is just in case your browser doesn't support the video format that you added. So I added the .webM format <em>just in case</em> the browser the user uses doesn't support the .mp4 video file. You can add even more <code>&lt;source&gt;</code> tags to make the video more accessable to more people that use browsers that support different types of video formats. 
+            </p>
+            <hr>
+
+            <h2><strong><u>ADDING AUDIOS</u></strong></h2>
+            <p style="font-size: 20px; width: 60%;">
+                Just like adding video files, adding audios in an <abbr title="Hypertext Markup Language">HTML</abbr>5 file is an easy task. In this case, rather than using the <code>&lt;video&gt;</code> tag, you'll need to use the <code>&lt;audio&gt;</code> tag
+            </p>
+
+            <p style="font-size: 20px; width: 60%;">
+                The attributes that are in an <code>&lt;audio&gt;</code> tag are basicly the same as the attributes inside a <code>&lt;video&gt;</code> tag. So you'll use the "controls" "loop" "autoplay" and many more. You'll also use the <code>&lt;source&gt;</code> tags, and add the audio file formats so that other browser that doesn't support the audio file format that you added, doesn't support.
+            </p>    
+
+            <figure>
+                <figcaption>An example of an audio file inside an HTML code</figcaption>
+                <img src="img/audioCodeExample.png" alt="Using audio tag in HTML example" title="Using audio tag in HTML example" loading="lazy">
+            </figure>
+        </main>
+        <footer>
+            <h2><strong><u>Conclusion</u></strong></h2>
+            <p style="font-size: 20px; width: 60%;">
+                Now you have reached the end of the journey. These lessons were the backbone of <abbr title="Hypertext Markup Language">HTML</abbr>. I had a lot of fun teaching you guys all the <em>Elements, Attributes, Tags, Values,</em> and many other things about <abbr title="Hypertext Markup Language">HTML</abbr>5. And after learning about <abbr title="Hypertext Markup Language">HTML</abbr>, you'll need to learn things like <abbr title="Javascript">JS</abbr>, <abbr title="Cascading Style Sheet">CSS</abbr>, and Frameworks like <em>Angular</em> and <em>React Native</em>.
+            </p>
+            
+            <p style="font-size: 20px; width: 60%;">
+                Click <a href="#">HERE</a> to go to TOP
+                <br>
+                Click <a href="index.html">HERE</a> to go to HOME
+            </p>
+            <br><br><br><br>
+            <figure>
+                <figcaption>BYEEEEEEEE</figcaption>
+                <img src="img/bye-bye-bye.gif" alt="bye bye gif" title="See you next time BOIIII" loading="lazy">
+            </figure>
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Links</title>
+</head>
+<body>
+    <header>
+        <h1><strong><u>Adding Links=</u></strong></h1>
+        <p style="font-size: 20px;">
+            Adding links is kind of comparable to a spider shooting out webs to other surfaces to navigate to other surfaces. By adding links in our <abbr title="Hypertext Markup Language">HTML</abbr> file, we can <br> give the audience the ability to navigate into other websites or other parts of our page.
+        </p>
+        <hr>
+        <br>
+        <img src="img/htmlLinkExample.webp" alt="listExampleImage" title="Example of the usage of an a tag" width="650" height="257" loading="eager">
+        <p style="font-size: 20px;">    
+            In the image, the usage of an <code><strong><u>&lt;<abbr title="Anchor">a</abbr>&gt;</u></strong></code> tag (anchor)is used. The anchor tag is used to add links to navigate to different places in the web. This includes <br> <strong>Relative Links</strong> that links to different places on your webpage, and <strong>Absolute Links</strong> that link to other webpages. Absolute Links are links that contain the <br> full and explicit location of a resource, starting from the root directory of the webdite or the server.
+        </p>
+        <figure>
+            <figcaption>
+                <strong><u>Here is an example of an absolute link used in an <u><code>&lt;a&gt;</code> tag.</u></u></strong>
+                <br>
+                <img src="img/absoluteReferenceEj.png" alt="Absolute Reference Image" title="Example of the usage of Absolute Links in an HTML file">
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <hr>
+        <h2><strong><u>Types of Links I can Add=</u></strong></h2>
+        <h3><strong><u>1.) Navigational Links=</u></strong></h3>
+        <p style="font-size: 20px;">
+            Here are the tags you'll need to know in order to do this. The <code>&lt;nav&gt;</code> and <code>&lt;section&gt;</code> tags. To add the navigational link on the page, use the <code>&lt;nav&gt;</code> element <br> and add an <code>&lt;a&gt;</code> tag and put hashtag and the section id's value for the value of the href for the link to "link" to the section of the content you want the user to <br> navigate to. 
+        </p>
+        <p style="font-size: 20px;">
+            You may have noticed that I've mentioned something about a section id, and in this paragraph I'll explain more upon that topic. The <strong>Section Id</strong> is used to <br> indicate the link's destination, that's why we need the Id and the value of href to be the exact same value, so that the link will know to navigate to that same <br> exact to send the user to. This way, the user will have access to links to travel to different places of your webpage or any other webpage (with the Absolute <br> Link provided).
+        </p>
+        <h3><strong><u>2.) Download Links=</u></strong></h3>
+        <p style="font-size: 20px;">
+            Creating a Download Link is simple by this point. You just need to add the attribute inside the <code><strong>&lt;a&gt;</strong></code> tag. <br> Here is an example of a Download Link=
+        </p>
+
+        <figure>
+            <img src="img/downloadLinkExample.png" alt="Download Link Example" title="Download Link Example" width="1200"  loading="lazy">
+        </figure>
+
+        <p style="font-size: 20px;">
+            The only difference is that I added a download attribute and the link turns into a download link. With this, you can even download other types of files like <br> videos, audios, text docs, and many other types of files that the browser the user is using supports.
+        </p>
+        <p style="font-size: 20px;">
+            You've also noticed that I've added a loading attribute. That attribute is used to load the image in case if the image is on the lower side of the page to a <br> certain degree. By adding with attribute, your website will be more smooth because when the browser is being loaded. The reason behind this is that when <br> a webpage is loaded, and the lazy loading is added, the browser loads the image in later when the user is about the scroll to the image. Thus, making the <br> browser download the content that the user will be currently viewing and not waste time to download the content that the user will not be seeing.
+        </p>
+        <h3><strong><u>Target Attribute=</u></strong></h3>
+        <p style="font-size: 20px;">
+            There is an Attribute that lets you change the way the link is opened. You simply have to add the Taget Attribute and then put the specific value to make the <br> link open in a certain way. <br> Here are all the possible values for the Target Attribute= 
+        </p>
+        <dl style="font-size: 20px;">
+            <dt>
+                <strong>_blank</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in a new browser window or tab.
+            </dd>
+            <dt>
+                <strong>_parent</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in the parent frame or window, if applicable.
+            </dd>
+            <dt>
+                <strong>_self</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in the same window/tab.
+            </dd>
+            <dt>
+                <strong>_parent</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in the parent frame or window, if applicable.
+            </dd>
+            <dt>
+                <strong>_top</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in the top-level browsing context, replacing all frames if applicable.
+            </dd>
+            <dt>
+                <strong>_framename</strong>
+            </dt>
+            <dd>
+                Opens the linked page/resource in a specific named frame or window, where "framename" is the name attribute of the target frame/window.
+            </dd>
+        </dl>
+    </main>
+    <footer>
+        <h3><strong><u>Conclusion=</u></strong></h3>
+        <p style="font-size: 20px;">
+            And with this I'll end today's lesson. I know that I haven't yet give you guys all the types of links you can add on your pages but these were some of the <br> basics you need to know. I'll see you guys in the next one. Cheers!
+        </p>
+        <a href="index.html" style="font-size: 20px;"><strong>Back to Home</strong></a>
+    </footer>
+</body>
+</html>
